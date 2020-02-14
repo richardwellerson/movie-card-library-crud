@@ -13,9 +13,9 @@ function App() {
     <BrowserRouter>
       <Switch>
         <Route exact path="/movie-card-library-crud" component={MovieList} />
-        <Route exact path="/movie-card-library-crud/movies/new" component={NewMovie} />
+        <Route path="/movie-card-library-crud/movies/new" component={NewMovie} />
         <Route exact path="/movie-card-library-crud/movies/:id" component={MovieDetails} />
-        <Route exact path="/movie-card-library-crud/movies/:id/edit" component={EditMovie} />
+        <Route path="/movie-card-library-crud/movies/:id/edit" component={EditMovie} />
         <Route component={NotFound} />
       </Switch>
     </BrowserRouter>

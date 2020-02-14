@@ -45,9 +45,9 @@ class MovieDetails extends Component {
               <p>{`Rating: ${rating}`}</p>
             </div>
             <div className="card-action">
-              <Link to={`/movies/${this.props.match.params.id}/edit`}>EDITAR</Link>
-              <Link to="/">VOLTAR</Link>
-              <Link to="/" onClick={() => movieAPI.deleteMovie(this.props.match.params.id)}>
+              <Link to={`/movie-card-library-crud/movies/${this.props.match.params.id}/edit`}>EDITAR</Link>
+              <Link to="/movie-card-library-crud/">VOLTAR</Link>
+              <Link to="/movie-card-library-crud/" onClick={() => movieAPI.deleteMovie(this.props.match.params.id)}>
                 Delete
               </Link>
             </div>

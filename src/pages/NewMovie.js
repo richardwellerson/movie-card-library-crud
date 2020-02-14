@@ -21,7 +21,7 @@ class NewMovie extends Component {
   }
 
   render() {
-    if (this.state.redirect) return <Redirect to="/" />;
+    if (this.state.redirect) return <Redirect to="/movie-card-library-crud/" />;
     return <MovieForm onSubmit={this.handleSubmit} />;
   }
 }
