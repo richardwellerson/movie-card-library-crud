@@ -1,6 +1,6 @@
 {
   "homepage": "https://richardwellerson.github.io/movie-card-library-crud",
-  "name": "movie-database-crud",
+  "name": "movie-card-library-crud",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
