@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3e1000a961e471eec35fb1ca76775336",
+    "revision": "d3ee6c59d0d6fbe49eb715579a494323",
     "url": "/movie-card-library-crud/index.html"
   },
   {
-    "revision": "19f95a47e2122075c1a0",
+    "revision": "813048262f100acb67aa",
     "url": "/movie-card-library-crud/static/css/main.c5604e8d.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/movie-card-library-crud/static/js/2.83303ed3.chunk.js"
   },
   {
-    "revision": "19f95a47e2122075c1a0",
-    "url": "/movie-card-library-crud/static/js/main.a1fcc692.chunk.js"
+    "revision": "813048262f100acb67aa",
+    "url": "/movie-card-library-crud/static/js/main.d6a90912.chunk.js"
   },
   {
     "revision": "11c012409102ba8cac94",
